@@ -1,0 +1,13 @@
+Options All -Indexes
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9/=]+)$ index.php?vistas=$1
+
+php_value upload_max_filesize 50M
+php_value post_max_size 50M
+php_value max_execution_time 20
+php_value max_input_time 60
+
+#php_flag display_startup_errors off
+#php_flag display_errors off
+#php_flag html_errors off

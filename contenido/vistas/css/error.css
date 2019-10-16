@@ -1,0 +1,9 @@
+.container-404{
+    background-image: url(../assets/img/error2.png);
+    /*font-size: 48px;*/
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

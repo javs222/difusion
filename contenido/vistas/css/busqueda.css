@@ -1,0 +1,65 @@
+.busqueda,
+.busqueda > ul,
+.busqueda > ul >li,
+.busqueda > ul > li > a{
+    
+	height: 50px;
+	line-height: 50px;
+        
+        /*padding: 250px;*/
+}
+.busqueda > ul > li > a{
+    
+	outline: none;
+        /*margin: 10px;*/
+}
+.busqueda{
+    /*right: 350px;*/
+    background-color: #333;
+    /*margin: 10px;*/
+    /*overflow: visible;*/
+}
+.busqueda > ul >li,
+.busqueda > ul > li > a{
+    
+	display: block;
+	width: 50px;
+	text-align: center;
+        color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	font-size: 25px;
+	transition: all .3s ease-in-out;
+	position: relative;
+}
+.busqueda > ul > li > a:hover{
+	background-color: rgba( 255, 255, 255, .1);
+	color: #FF5722;
+        
+}
+.busqueda > ul > li > a > span.badge{
+/*	position: fixed;*/
+/*	top: 5px;
+	right: 6px;*/
+	background-color: #FF5722;
+        /*margin: 10px;*/
+	transition: all .3s ease-in-out;
+}
+.busqueda > ul > li > a:hover span.badge{
+	background-color: #333;
+        /*margin: 10px;*/
+	color: #333;
+        
+}
+
+.fullbox{
+    /*right: 350px;*/
+	/*margin: 10px;*/
+	padding: 0px;
+	width: 50px;
+        margin: 0px;
+/*        left: 50px;*/
+        
+/*	box-sizing: inherit;*/
+}
+
